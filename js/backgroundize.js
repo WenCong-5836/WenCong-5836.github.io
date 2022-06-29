@@ -1,7 +1,6 @@
 document
   .querySelector('#web_bg')
-  .setAttribute('style', `background-image: ${document.querySelector('.banner').style.background.split(' ')[0]};position: fixed;width: 100%;height: 100%;z-index: -1;background-size: cover;`);
-
+  .setAttribute('style', `background-image: ${document.querySelector('.banner').style.background.split(' ')[0]};position: fixed;width: 100%;height: 100%;z-index: -1;background-size: cover;filter: brightness(75%);`);
 document
   .querySelector("#banner")
   .setAttribute('style', 'background-image: url()')
