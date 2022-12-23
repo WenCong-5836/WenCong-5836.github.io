@@ -5,8 +5,8 @@
   
   <entry>
     <title>PicGo搭配图床搭配使用案例</title>
-    <link href="/2022/12/18/2022-12-12/"/>
-    <url>/2022/12/18/2022-12-12/</url>
+    <link href="/2022/12/12/2022-12-12/"/>
+    <url>/2022/12/12/2022-12-12/</url>
     
     <content type="html"><![CDATA[<h2 id="PicGo-一个用于快速上图片并获取图片url的工具"><a href="#PicGo-一个用于快速上图片并获取图片url的工具" class="headerlink" title="PicGo-一个用于快速上图片并获取图片url的工具"></a>PicGo-一个用于快速上图片并获取图片url的工具</h2><p style="text-indent: 6em;">本教程使用的是七牛云仓库，首先注册七牛云并新建仓库设置为公开</p><p><img src="https://s2.loli.net/2022/12/22/ofPAlqLgku6OXHM.png" srcset="/img/loading.gif" lazyload></p><p style="text-indent: 6em;">这是个人密钥 把这两个key分别粘贴到picgo设置里</p><p><img src="https://s2.loli.net/2022/12/22/6OxAsXLYEMKVH2I.png" srcset="/img/loading.gif" lazyload></p><p style="text-indent: 6em;">接着打开picgo里把相对应得信息填写</p><p><img src="https://s2.loli.net/2022/12/22/5C4sBupGTxSky6v.png" srcset="/img/loading.gif" lazyload></p><p style="text-indent: 6em;">在填写访问网址时要加上http前缀，否则会无法在相册预览里正常显示图片</p><p><img src="https://s2.loli.net/2022/12/22/Pa31qNT9JYHsCew.png" srcset="/img/loading.gif" lazyload></p><p style="text-indent: 6em;">接着打开picgo里把相对应得信息填写 这是正常显示的效果</p>]]></content>
     
