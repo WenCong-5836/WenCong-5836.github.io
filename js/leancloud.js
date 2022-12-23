@@ -190,5 +190,3 @@
       });
   }
 })(window, document);
-
-
