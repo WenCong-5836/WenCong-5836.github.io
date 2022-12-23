@@ -1,0 +1,9 @@
+.index-img a
+{
+  transition: .3s;overflow: hidden;}
+
+  .index-img a img{transition: .3s}
+.index-img a img:hover
+{
+  transform: scale(1.05);
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,0.38), 0 4px 15px 0 rgba(0,0,0,0.35);overflow: hidden;}
