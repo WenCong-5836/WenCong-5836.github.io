@@ -308,23 +308,23 @@
 
   <article id="comments">
     
-  <div id="twikoo"></div>
+  <div id="valine"></div>
   <script type="text/javascript">
-    Fluid.utils.loadComments('#comments', function() {
-      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.5.11/twikoo.all.min.js', function() {
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.4.17/Valine.min.js', function() {
         var options = Object.assign(
-          {"envId":"hello-cloudbase-0gd9oal5f024d81b","region":"ap-shanghai","path":"window.location.pathname","enable":false,"shortname":"twikoo"},
+          {"appId":"wCPHLTRmxKlElrzaTc3kSESo-MdYXbMMI","appKey":"OwXrLwZJYxthSh2EWwxDb7Vt","path":"window.location.pathname","placeholder":"吐槽","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":"false、"},
           {
-            el: '#twikoo',
-            path: 'window.location.pathname',
-            onCommentLoaded: function() {
-              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
-              Fluid.plugins.imageCaption(imgSelector);
-              Fluid.plugins.fancyBox(imgSelector);
-            }
+            el: "#valine",
+            path: window.location.pathname
           }
         )
-        twikoo.init(options)
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
       });
     });
   </script>
