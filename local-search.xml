@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>🔨工具：使用vercel加速Hexo静态博客访问</title>
+    <title>使用vercel加速Hexo静态博客访问，阿里云绑定域名</title>
     <link href="/2022/12/24/2022-12-24/"/>
     <url>/2022/12/24/2022-12-24/</url>
     
-    <content type="html"><![CDATA[<h1 id="使用vercel加速Hexo静态博客访问"><a href="#使用vercel加速Hexo静态博客访问" class="headerlink" title="使用vercel加速Hexo静态博客访问"></a>使用vercel加速Hexo静态博客访问</h1><h2 id="折腾篇"><a href="#折腾篇" class="headerlink" title="折腾篇"></a>折腾篇</h2><div class="note note-info">            <p>估计现在有很多同学使用了Hexo博客框架白嫖一套主题并部署在了Github上，看起来很容易上手，但部署完后无奈发现访问速度堪忧，到后面才发现这才是“苦难”的开始：原本想开开心心写博客，但更多的时间是被用来优化网站。因为强迫症患者总是对网站各种不满意，于是自己挖坑又填坑。  </p>          </div><p>本文是折腾完结篇，先说下前几天的<strong>部署</strong>🆒<br>首先基本的问题-Github Pages 访问速度过慢，获取的样式资源要2s-5s左右才能完成。因为Github的服务器在海外，国内有万里长城所以有时抽风会导致无法访问。  </p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="https://s2.loli.net/2022/12/24/iYvdbECX3UngJrx.png" alt="抽风"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/12/24/KW8NQlgYBJOC69H.png" alt="速度"></div></div></div><p>于是我转向国内的Gitee，是国内版的Github，功能都一样，最主要的就是服务器在国内，我本想部署完后访问速度会加快，没想到说主页有违规内容，一直无法发布，这问题很中国。<br><img src="https://s2.loli.net/2022/12/24/EtaPLkybliN3jpm.png" alt="违禁内容"><br>Gitee的报错我折腾了一天，后来发现vercel部署更加快捷</p><h2 id="vercel解析阿里云域名实现加速"><a href="#vercel解析阿里云域名实现加速" class="headerlink" title="vercel解析阿里云域名实现加速"></a>vercel解析阿里云域名实现加速</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="使用vercel加速Hexo静态博客访问"><a href="#使用vercel加速Hexo静态博客访问" class="headerlink" title="使用vercel加速Hexo静态博客访问"></a>使用vercel加速Hexo静态博客访问</h1><p>在阿里云巨资注册了域名，终于有自己的网址了😃</p><h2 id="折腾篇"><a href="#折腾篇" class="headerlink" title="折腾篇"></a>折腾篇</h2><div class="note note-info">            <p>估计现在有很多同学使用了Hexo博客框架白嫖一套主题并部署在了Github上，看起来很容易上手，但部署完后无奈发现访问速度堪忧，到后面才发现这才是“苦难”的开始：原本想开开心心写博客，但更多的时间是被用来优化网站。因为强迫症患者总是对网站各种不满意，于是自己挖坑又填坑。  </p>          </div><p>本文是折腾完结篇，先说下前几天的<strong>部署</strong>🆒<br>首先基本的问题-Github Pages 访问速度过慢，获取的样式资源要2s-5s左右才能完成。因为Github的服务器在海外，国内有万里长城所以有时抽风会导致无法访问。  </p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="https://s2.loli.net/2022/12/24/iYvdbECX3UngJrx.png" alt="抽风"></div><div class="group-image-wrap"><img src="https://s2.loli.net/2022/12/24/KW8NQlgYBJOC69H.png" alt="速度"></div></div></div><p>于是我转向国内的Gitee，是国内版的Github，功能都一样，最主要的就是服务器在国内，我本想部署完后访问速度会加快，没想到说主页有违规内容，一直无法发布，这问题很中国。<br><img src="https://s2.loli.net/2022/12/24/EtaPLkybliN3jpm.png" alt="违禁内容"><br>Gitee的报错我折腾了一天，后来发现vercel部署更加快捷</p><h2 id="vercel解析阿里云域名实现加速"><a href="#vercel解析阿里云域名实现加速" class="headerlink" title="vercel解析阿里云域名实现加速"></a>vercel解析阿里云域名实现加速</h2>]]></content>
     
     
     
