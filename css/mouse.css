@@ -1,14 +1,61 @@
-body {
-    cursor: url(https://bu.dusays.com/2022/05/17/6283c365d20dd.png), auto;
+html{ 
+	cursor: url(/img/Arrow.cur),auto;/* url地址可以是链接，相对位置，绝对位置 */
+	background-color: 8000000F;  /* 写成透明就行 */
+}
+/* 封面大图 */
+.banner {
+	cursor: url(/img/Arrow.cur),auto;
+	background-color: 8000000F;
 }
 
-.hide-block>.hide-button.open,
-.hide-inline>.hide-button.open {
-    display: block
+/* 封面向下 */
+.scroll-down-bar {
+	cursor: url(/img/Hand2.cur),auto; /* 一个小手 */
+	background-color: 8000000F;
+}
+/* 所有可跳转链接 */
+a[href] {
+	cursor: url(/img/Hand2.cur),auto !important;
+	background-color: 8000000F;
+}
+/* 搜索框关闭按钮  */
+#local-search-close.close {
+	cursor: url(/img/Hand2.cur),auto;
+	background-color: 8000000F;
 }
 
-a,
-button,
-img {
-    cursor: url(https://bu.dusays.com/2022/05/17/6283c376afcfc.png), auto
+/* 搜索框、输入框 */
+input,textarea {
+	cursor: url(/img/IBeam.cur),auto;    /* 这里应该是竖条光标 */
+	background-color: 8000000F;
+}
+
+/* 代码复制键 按钮键增加!important属性后可删 */
+.copy-btn.copy-btn-light {
+	cursor: url(/img/Hand2.cur),auto;
+	background-color: 8000000F;
+}
+
+/* 按钮 */
+button[class] {
+	cursor: url(/img/Hand2.cur),auto !important;
+	background-color: 8000000F;
+}
+
+/* 补充按钮 */
+svg {
+	cursor: url(/img/Hand2.cur),auto !important;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* 图片放大 */
+.fancybox-image {
+	cursor: url(/img/SizeAll.cur),auto;
+	background-color: 8000000F;
+}
+
+/* 回到顶部   a标签添加!important属性后此处可删*/
+#scroll-top-button {
+	cursor: url(/img/Hand2.cur),auto;
+	background-color: 8000000F;
 }
