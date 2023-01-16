@@ -4,11 +4,11 @@
   
   
   <entry>
-    <title>新机初体验</title>
-    <link href="/2022/12/29/2022-12-29/"/>
-    <url>/2022/12/29/2022-12-29/</url>
+    <title>Vue中的数据代理</title>
+    <link href="/2023/01/11/2022-12-29/"/>
+    <url>/2023/01/11/2022-12-29/</url>
     
-    <content type="html"><![CDATA[<h1 id="广州修机-沙头旧货市场交易"><a href="#广州修机-沙头旧货市场交易" class="headerlink" title="广州修机-沙头旧货市场交易"></a>广州修机-沙头旧货市场交易</h1><h4 id="1月2号去修机子"><a href="#1月2号去修机子" class="headerlink" title="1月2号去修机子"></a>1月2号去修机子</h4><p>大光圈真的不适合拍风景啊，又要攒钱买长焦了了</p><p><img src="https://s2.loli.net/2022/12/30/iXIjN9loQCk4g2F.jpg" srcset="/img/loading.gif" lazyload></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="日记"><a href="#日记" class="headerlink" title="日记"></a>日记</h1><h2 id="Vue中的数据代理"><a href="#Vue中的数据代理" class="headerlink" title="Vue中的数据代理"></a>Vue中的数据代理</h2><p>依靠JS中的Object.defineProperty为底层原理，使用的get函数与set函数</p><h3 id="get函数与set函数"><a href="#get函数与set函数" class="headerlink" title="get函数与set函数"></a>get函数与set函数</h3><p>getter调用执行 set设置执行</p><h2 id="methods事件处理"><a href="#methods事件处理" class="headerlink" title="methods事件处理"></a>methods事件处理</h2><h3 id="vue中的事件修饰符："><a href="#vue中的事件修饰符：" class="headerlink" title="vue中的事件修饰符："></a>vue中的事件修饰符：</h3><p> 1.prevent:阻止默认事件（如连接跳转）常用<br> 2.stop:组织事件冒泡（常用）<br> 3.once:事件只触发一次（常用）<br> 4.capture：使用事件的捕获模式<br> 5.self：只有event.target是当前操作的元素时候才是促触发事件<br> 6.passive:事件的默认行为立即执行，无需等待事件回调完毕</p><h3 id="键盘按键修饰"><a href="#键盘按键修饰" class="headerlink" title="键盘按键修饰"></a>键盘按键修饰</h3><p>  1.VUE中常用的按键别名: (@keyup.enter)例子<br>     回车 &#x3D; enter<br>     删除 &#x3D; delete<br>     推出 &#x3D; esc<br>     空格 &#x3D; space<br>     换行 &#x3D; tab(特殊，必须配合keydown使用)<br>      上下左右 up left down right  </p><p> 2.vue未提供别名的按键，也可以用按键原始的key值去绑定，但注意要转为caps-lock（双单词短横线命名）<br> 3.系统修饰按键(用法特殊)：ctrl、alt、shift、meta（win）<br>    （1）配合keyup使用：按下修饰键的同时，再按下其他键，随后释放，事件才能被触发<br>    （2）配合keydown使用：正常触发事件<br>4.也可以配合按键码使用，但mdn显示已遗弃特性不推荐使用</p><h3 id="计算属性"><a href="#计算属性" class="headerlink" title="计算属性"></a>计算属性</h3><p>1.定义：要用的属性不存在，要通过vm里已有的属性计算得来<br>2.原理：底层借助了objecet，defineproperty方法提供的getter和setter。<br>3.get函数什么时候执行？<br>                    （1）初次读取时会执行一次<br>                    （2）当依赖的数据发生改变时会被再次调用执行<br>4.优势：与methods实现相比，内部有缓存机制，效率高调用方便<br>5.备注： 1.计算属性最终会出现在vm上，直接读取调用即可<br>              2.如果计算的属性要被修改，那必须写set函数去响应修改，且set要引起计算机时依赖的数据发生改变</p>]]></content>
     
     
     <categories>
