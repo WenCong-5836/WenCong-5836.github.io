@@ -4,6 +4,56 @@
   
   
   <entry>
+    <title>回到原点</title>
+    <link href="/2023/02/11/2023-2-11/"/>
+    <url>/2023/02/11/2023-2-11/</url>
+    
+    <content type="html"><![CDATA[<h2 id="现在"><a href="#现在" class="headerlink" title="现在"></a>现在</h2><p>一切回到正常生活状态，最近找到了份摄影后期的工作，大小周休息，蛮不错的有大佬带，工作室氛围也很友好。每天摸摸鱼就下班了。</p><p class="note note-info">没有拍摄任务就摸鱼，轻松得一批，还好选对了</p><h2 id="期望"><a href="#期望" class="headerlink" title="期望"></a>期望</h2><p>希望在工作的前提下能够继续坚持我的前端吧，虽说我也不是很喜欢敲代码，但毕竟是我的专业，如果不继续敲下去，那我真的感觉白学了。  </p><span class="label label-primary">html</span>  <span class="label label-primary">css</span>  <span class="label label-primary">js</span>   <span class="label label-primary">jq</span>   <span class="label label-primary">bootstrap</span>                <input type="checkbox" disabled >Vue           学习中]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>生活</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>梦的结束</title>
+    <link href="/2023/01/27/%E6%96%B0%E5%B9%B4/"/>
+    <url>/2023/01/27/%E6%96%B0%E5%B9%B4/</url>
+    
+    <content type="html"><![CDATA[<h1 id="这一年"><a href="#这一年" class="headerlink" title="这一年"></a>这一年</h1><p>疫情困扰的一年，蛮多人回家乡的。<br>快毕业了，可能是年轻的时候没有做过什么令我难忘的事，觉得是时候应该做出改变。<br>在今年学了摄影，懂得了用照片记录特别的时刻<br><img src="https://s2.loli.net/2023/02/11/C89LiGBpbHW7MaN.png" srcset="/img/loading.gif" lazyload></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>生活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>生活</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Vue中的数据代理</title>
     <link href="/2023/01/11/2022-12-29/"/>
     <url>/2023/01/11/2022-12-29/</url>
@@ -13,14 +63,14 @@
     
     <categories>
       
-      <category>摄影</category>
+      <category>vue</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>摄影</tag>
+      <tag>学习</tag>
       
     </tags>
     
